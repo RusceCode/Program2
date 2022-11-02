@@ -1,5 +1,6 @@
 <template>
   <q-page class="column flex-center">
+    
     <q-knob
       v-model="count"
       :min="min"
@@ -48,7 +49,8 @@
         padding="xl"
         dense
         round
-        label=""       
+        label=""
+        to="/pages/PageOne"
       />
     </div>
   </q-page>
@@ -61,4 +63,5 @@ const count = ref(0);
 
 const min = -5;
 const max = 5;
+
 </script>
