@@ -11,15 +11,15 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>Quasar CLI with Vite App</q-toolbar-title>
+        <q-toolbar-title>Alexprogramma</q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header>Essential Links</q-item-label>
+        <q-item-label header>Ik krijg dit ding niet weg</q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -41,46 +41,46 @@ import EssentialLink from 'components/EssentialLink.vue';
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Leren',
+    caption: 'Klik hier niet op',
     icon: 'school',
-    link: 'https://quasar.dev',
+    link: 'https://nos.nl',
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
+    title: 'Code',
+    caption: 'Klik hier niet op',
     icon: 'code',
-    link: 'https://github.com/quasarframework',
+    link: '',
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Chatten',
+    caption: 'Klik hier niet op',
     icon: 'chat',
-    link: 'https://chat.quasar.dev',
+    link: '',
   },
   {
     title: 'Forum',
-    caption: 'forum.quasar.dev',
+    caption: 'Klik hier niet op',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev',
+    link: '',
   },
   {
     title: 'Twitter',
-    caption: '@quasarframework',
+    caption: 'Klik hier niet op',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev',
+    link: '',
   },
   {
     title: 'Facebook',
-    caption: '@QuasarFramework',
+    caption: 'Klik hier niet op',
     icon: 'public',
-    link: 'https://facebook.quasar.dev',
+    link: '',
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
+    title: 'Like',
+    caption: 'Klik hier niet op',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
+    link: '',
   },
 ];
 

@@ -15,12 +15,6 @@
       </q-avatar>
     </q-knob>
 
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 140px"
-    />
-
     <div class="q-mt-xl">
       <q-btn
         color="primary"
@@ -40,11 +34,22 @@
         label="+"
         :disable="count === max"
         @click="count++"
-      />
+      />  
     </div>
 
     <div class="q-mt-md" style="width: 200px">
       <q-slider v-model="count" :min="min" :max="max" />
+    </div>
+
+    <div class="q-mt-md" style="width: 100px">
+       <q-btn
+        color="amber"
+        icon="navigation"
+        padding="xl"
+        dense
+        round
+        label=""       
+      />
     </div>
   </q-page>
 </template>
